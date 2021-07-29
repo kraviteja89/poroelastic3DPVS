@@ -1,6 +1,6 @@
 % Recreates all subplots of Fig 5 in the paper
 %% Parameters
-pathName = 'COMSOLExports/';
+pathName = 'Results/';
 caseNames = {'Awake20', 'Awake40', 'Sleep20', 'Sleep40'};
 captions = {'\zeta = 0.2, 20% dilation','\zeta = 0.2, 40% dilation', '\zeta = 0.3, 20% dilation', '\zeta = 0.3, 40% dilation'};
 nFramesOld = 200;
