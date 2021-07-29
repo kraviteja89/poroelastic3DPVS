@@ -1,2 +1,15 @@
-Files for the paper "Arterial vasodilation drives convective fluid flow in the brain in a poroelastic model"
+Files for recreating figures for the the paper "Arterial vasodilation drives convective fluid flow in the brain in a poroelastic model"
+
+All the code in this repository works with Matlab® 2019a (Mathworks Inc.)
+
+To run the Code, download the "Results" folder from [OneDrive](https://pennstateoffice365-my.sharepoint.com/:f:/g/personal/pjd17_psu_edu/EviDgcZvybxFqO2a7QpumQwB09T-YMW7VE-CNijdCZl0gA?e=vK5pD0) and add it to the folder
+
+
+The files and copyright information is as follows:
+
+"inpolyhedron.m" Copyright (c) 2016, Sven Holcombe was downloaded from Mathworks
+all other files Copyright (c) 2021, Ravi Teja Kedarasetti
+
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
