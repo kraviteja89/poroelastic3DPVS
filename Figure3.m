@@ -4,7 +4,7 @@ close all
 clc
 %%
 pathName = 'COMSOLExports/';
-caseNames = {'Awake20/', 'Symmetric20/'};
+caseNames = {'Awake20', 'Symmetric20'};
 captions = {'Asymmetric waveform 20% dilation', 'Symmetric waveform 20% dilation'};
 pecletLimit = 1;
 
