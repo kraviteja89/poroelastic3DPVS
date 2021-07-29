@@ -33,19 +33,20 @@ fig = figure();
 set(fig, 'Position', [10 50 1200 925])
 set(fig, 'Color','w')
 minZ = min(vesselGrid(:,3));
-        
-% plot the walls
-fill3(vesselWall(:,:,1), vesselWall(:,:,2), vesselWall(:,:,3), 'r', 'LineStyle', 'none', 'FaceAlpha', 0.1);
-hold on
-fill3(interfaceWall(:,:,1), interfaceWall(:,:,2), interfaceWall(:,:,3), 'g', 'LineStyle', 'none', 'FaceAlpha', 0.1);
-fill3(tissueWall(:,:,1), tissueWall(:,:,2), tissueWall(:,:,3), 'm', 'LineStyle', 'none', 'FaceAlpha', 0.1);
+
 fill3(sasWall(:,:,1), sasWall(:,:,2), sasWall(:,:,3), 'c', 'LineStyle', 'none', 'FaceAlpha', 0.1);
+hold on
 
 % plot particle trajectories and end points
 for n = 1:nParticles
     plot3(traj_pvs_lag(:,1,n), traj_pvs_lag(:,2,n), traj_pvs_lag(:,3,n), 'Color',   [0 0.6 0] , 'LineWidth', 1)
     scatter3(squeeze(traj_pvs_lag(end,1,n)), squeeze(traj_pvs_lag(end,2,n)), squeeze(traj_pvs_lag(end,3,n)), 'MarkerFaceColor', [0 0.6 0], 'MarkerEdgeColor', [0 0.4 0])
 end
+
+% plot the walls
+fill3(vesselWall(:,:,1), vesselWall(:,:,2), vesselWall(:,:,3), 'r', 'LineStyle', 'none', 'FaceAlpha', 0.1);
+fill3(interfaceWall(:,:,1), interfaceWall(:,:,2), interfaceWall(:,:,3), 'g', 'LineStyle', 'none', 'FaceAlpha', 0.1);
+fill3(tissueWall(:,:,1), tissueWall(:,:,2), tissueWall(:,:,3), 'm', 'LineStyle', 'none', 'FaceAlpha', 0.1);
         
 title([caption ': t='  num2str((nFrames-1)*dt, '%.1f') 's'], 'FontSize', 25)
 axis equal
